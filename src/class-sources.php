@@ -22,7 +22,7 @@ class RP_Sources extends ResponsivePics
 
 			// calculate height based on original aspect ratio
 			if ($height === -1) {
-				$height = floor($original_height / $original_width * $width);
+				$height = round($original_height / $original_width * $width);
 			}
 
 			// preserve aspect ratio when cropping
