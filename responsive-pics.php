@@ -18,6 +18,18 @@ class ResponsivePicsWP
 	private static $instance;
 	public static $enqueue;
 
+	// Class instances, set in ResponsivePics::init()
+	public $api;
+	public $helpers;
+	public $error;
+	public $process;
+	public $rules;
+	public $breakpoints;
+	public $grid;
+	public $sources;
+	public $focalpoint;
+	public $s3offload;
+
 	/**
 	 * Construct
 	 */
